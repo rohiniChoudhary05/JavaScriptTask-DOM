@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #87ceeb;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rainbow {
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+
+section {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 500px 500px 0 0;
+    border: 15px solid transparent;
+    background: transparent;
+    color: transparent;
+}
+
